@@ -1,14 +1,17 @@
-===
+================
 whitening
-===
+================
 
 The package implements in Python with a sklearn-like interface the whitening methods:
+
 - ZCA
 - PCA
 - Cholesky
 - ZCA-cor
 - PCA-cor
-discussed in Kessy, Lewin, and Strimmer (2018) ``Optimal whitening and decorrelation'', <doi:10.1080/00031305.2016.1277159>.
+
+discussed in [KLS2018]_.
+
 
 Usage
 -----
@@ -47,11 +50,12 @@ GPLv3
 Authors
 -------
 
-`whitening` was rewritten by `Jeremi Ochab <jeremi.ochab@uj.edu.pl>`_
+'whitening' was rewritten by `Jeremi Ochab <jeremi.ochab@uj.edu.pl>`_
 
 based on:
 
 1. https://CRAN.R-project.org/package=whitening by Korbinian Strimmer, Takoua Jendoubi, Agnan Kessy, Alex Lewin
-1. Python implementation https://gist.github.com/joelouismarino/ce239b5601fff2698895f48003f7464b by Joe Marino
-1. sklearn interface from https://github.com/mwv/zca by Maarten Versteegh
+2. Python implementation https://gist.github.com/joelouismarino/ce239b5601fff2698895f48003f7464b by Joe Marino
+3. sklearn interface from https://github.com/mwv/zca by Maarten Versteegh
 
+.. [KLS2018] Kessy, Lewin, and Strimmer (2018) ``Optimal whitening and decorrelation'', https://doi.org/10.1080/00031305.2016.1277159.
