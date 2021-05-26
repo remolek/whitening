@@ -1,5 +1,5 @@
 ===
-zca
+whitening
 ===
 
 The package implements in Python with a sklearn-like interface the whitening methods:
@@ -48,8 +48,10 @@ Authors
 -------
 
 `whitening` was rewritten by `Jeremi Ochab <jeremi.ochab@uj.edu.pl>`_
+
 based on:
+
 1. https://CRAN.R-project.org/package=whitening by Korbinian Strimmer, Takoua Jendoubi, Agnan Kessy, Alex Lewin
-2. Python implementation https://gist.github.com/joelouismarino/ce239b5601fff2698895f48003f7464b by Joe Marino
-3. sklearn interface from https://github.com/mwv/zca by Maarten Versteegh
+1. Python implementation https://gist.github.com/joelouismarino/ce239b5601fff2698895f48003f7464b by Joe Marino
+1. sklearn interface from https://github.com/mwv/zca by Maarten Versteegh
 
